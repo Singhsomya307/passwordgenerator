@@ -34,4 +34,3 @@ function generatePassword() {
     let password = shuffle(allCharacters);
     passwordDisplay.textContent = "Generated password: " + password;
 }
-
