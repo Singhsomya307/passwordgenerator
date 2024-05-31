@@ -19,20 +19,24 @@ body {
 }
 
 .container {
-    background-color: rgb(15, 18, 129);
+    background-color: rgb(33, 37, 140);
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 0 50px rgba(202, 36, 36, 0.1);
     text-align: center;
+
 }
 
 h1 {
     margin-bottom: 20px;
+    color: aliceblue;
 }
 
 label {
     display: block;
     margin-bottom: 10px;
+    color: aliceblue;
+
 }
 
 input {
@@ -40,13 +44,14 @@ input {
     margin-bottom: 20px;
     width: calc(100% - 24px);
     box-sizing: border-box;
-    color: #0c0404;
-    background-color: rgb(52, 58, 166);
+    color: #080000;
+    background-color: rgb(148, 150, 193);
 
 }
 
 input::placeholder {
-    color: #434343; /* Change placeholder text color */
+    color: #0c0303; /* Change placeholder text color */
+    text-align: center;
 }
 
 
@@ -57,14 +62,20 @@ button {
     border: none;
     border-radius: 5px;
     cursor: pointer;
+    font-size: 1em;
+    box-sizing: border-box;
+    transition: transform 0.3s ease;
 }
 
 button:hover {
-    background-color: #0056b3;
+    background-color: #aacaec;
+    transform: scale(1.1);
 }
 
 #password {
     margin-top: 20px;
     font-weight: bold;
     word-break: break-all;
+    color: aliceblue;
+
 }
